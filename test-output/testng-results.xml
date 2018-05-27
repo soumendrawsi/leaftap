@@ -2,66 +2,44 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27865" started-at="2018-05-13T14:10:50Z" finished-at="2018-05-13T14:11:18Z">
+  <suite name="Default suite" duration-ms="16241" started-at="2018-05-27T13:58:01Z" finished-at="2018-05-27T13:58:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27865" started-at="2018-05-13T14:10:50Z" finished-at="2018-05-13T14:11:18Z">
-      <class name="testcases.TC007_DeleteLead">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.TC007_DeleteLead@136e911]" name="beforeSuite" is-config="true" duration-ms="625" started-at="2018-05-13T14:10:49Z" finished-at="2018-05-13T14:10:50Z">
+    <test name="Default test" duration-ms="16241" started-at="2018-05-27T13:58:01Z" finished-at="2018-05-27T13:58:17Z">
+      <class name="testcasepaypal.TC001_PayPalSignUp">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcasepaypal.TC001_PayPalSignUp@136e911]" name="beforeSuite" is-config="true" duration-ms="815" started-at="2018-05-27T13:58:00Z" finished-at="2018-05-27T13:58:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.TC007_DeleteLead@136e911]" name="setData" is-config="true" duration-ms="0" started-at="2018-05-13T14:10:50Z" finished-at="2018-05-13T14:10:50Z">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcasepaypal.TC001_PayPalSignUp@136e911]" name="setData" is-config="true" duration-ms="0" started-at="2018-05-27T13:58:01Z" finished-at="2018-05-27T13:58:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setData -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcases.TC007_DeleteLead@136e911]" name="beforeClass" is-config="true" duration-ms="1" started-at="2018-05-13T14:10:50Z" finished-at="2018-05-13T14:10:50Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcasepaypal.TC001_PayPalSignUp@136e911]" name="beforeClass" is-config="true" duration-ms="2" started-at="2018-05-27T13:58:01Z" finished-at="2018-05-27T13:58:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC007_DeleteLead@136e911]" name="beforeMethod" is-config="true" duration-ms="5859" started-at="2018-05-13T14:10:51Z" finished-at="2018-05-13T14:10:57Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcasepaypal.TC001_PayPalSignUp@136e911]" name="beforeMethod" is-config="true" duration-ms="12840" started-at="2018-05-27T13:58:01Z" finished-at="2018-05-27T13:58:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="CreateLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC007_DeleteLead@136e911]" name="CreateLead" duration-ms="21089" started-at="2018-05-13T14:10:57Z" data-provider="fetchData" finished-at="2018-05-13T14:11:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DemoSalesManager]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[crmsfa]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Gopinath]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[No records to display]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="PayPalSignUp()[pri:0, instance:testcasepaypal.TC001_PayPalSignUp@136e911]" name="PayPalSignUp" duration-ms="2675" started-at="2018-05-27T13:58:14Z" finished-at="2018-05-27T13:58:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CreateLead -->
-        <test-method status="PASS" signature="getData()[pri:0, instance:testcases.TC007_DeleteLead@136e911]" name="getData" is-config="true" duration-ms="62" started-at="2018-05-13T14:11:18Z" finished-at="2018-05-13T14:11:18Z">
+        </test-method> <!-- PayPalSignUp -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcasepaypal.TC001_PayPalSignUp@136e911]" name="afterMethod" is-config="true" duration-ms="690" started-at="2018-05-27T13:58:17Z" finished-at="2018-05-27T13:58:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getData -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC007_DeleteLead@136e911]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-05-13T14:11:18Z" finished-at="2018-05-13T14:11:18Z">
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcasepaypal.TC001_PayPalSignUp@136e911]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-05-27T13:58:17Z" finished-at="2018-05-27T13:58:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.TC007_DeleteLead@136e911]" name="afterSuite" is-config="true" duration-ms="433" started-at="2018-05-13T14:11:18Z" finished-at="2018-05-13T14:11:18Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcasepaypal.TC001_PayPalSignUp@136e911]" name="afterSuite" is-config="true" duration-ms="425" started-at="2018-05-27T13:58:17Z" finished-at="2018-05-27T13:58:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- testcases.TC007_DeleteLead -->
+      </class> <!-- testcasepaypal.TC001_PayPalSignUp -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

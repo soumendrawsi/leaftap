@@ -3,18 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.TC007_DeleteLead">
+      <class name="testcasepaypal.TC001_PayPalSignUp">
         <methods>
           <include name="setData"/>
           <include name="afterTest"/>
-          <include name="getData"/>
           <include name="beforeSuite"/>
           <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="PayPalSignUp"/>
           <include name="beforeMethod"/>
           <include name="beforeClass"/>
-          <include name="CreateLead" invocation-numbers="0"/>
         </methods>
-      </class> <!-- testcases.TC007_DeleteLead -->
+      </class> <!-- testcasepaypal.TC001_PayPalSignUp -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
