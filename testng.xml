@@ -5,7 +5,7 @@
     <classes>
      <!--class name="testcases.TC001_LoginAndLogout"/>
       <class name="testcases.TC003_CreateLead"/-->
-      <class name="testcases.TC003_CreateLead"/>
+      <class name="testcases.TC001_PayPalSignUp"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
